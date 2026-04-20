@@ -35,3 +35,32 @@ http://localhost:8080
 ​Di Laptop/Perangkat Lain :
 ```
 http://[IP-HP-KAMU]:8080
+```
+Cari Tahu IP HP ​Di Termux, kamu ketik perintah ini:
+```
+ifconfig
+```
+Cari bagian wlan0 (kalau pakai WiFi/Hotspot). 
+Di bawahnya ada tulisan inet. Nah, angka di sebelah inet itu adalah IP kamu.
+
+Contoh : 
+```
+192.168.1.5 atau 192.168.43.1.
+```
+## Pastikan Satu Jaringan
+​HP yang jalanin Termux dan Laptop/HP yang mau akses harus konek ke WiFi yang sama.
+
+​Tips :
+
+Kalau nggak ada WiFi, kamu nyalain Hotspot di HP Termux kamu, terus Laptop kamu konek ke Hotspot itu.
+Itu cara paling stabil.
+​
+## Cara Aksesnya :
+
+​Misal IP yang kamu dapet tadi 
+```
+192.168.43.1
+```
+maka di browser laptop kamu ketik :
+```
+http://192.168.43.1:8080
