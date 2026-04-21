@@ -11,6 +11,11 @@
 - **🖼️ Media Preview:** Lihat foto dan putar video langsung di browser.
 - **🌐 Localhost & IP Access:** Akses via `localhost:8080` atau alamat IP lokal.
 
+## 🚀 Demo
+> Berikut adalah cuplikan tampilan :
+>
+> ![App Screenshot](Demo.jpg)
+
 ---
 
 ## 🛠️ Cara Instalasi
